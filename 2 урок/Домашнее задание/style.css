@@ -2,8 +2,41 @@
 .container {
   width: 1140px;
   margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.main-menu {
+  height: 150px;
+}
+
+.name-main-list {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.central-section {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-item {
+  height: 100px;
 }
 
 footer {
   background-color: #ffb5b5;
+  display: flex;
+  justify-content: center;
 }
