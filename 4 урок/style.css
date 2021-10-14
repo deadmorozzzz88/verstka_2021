@@ -1,0 +1,152 @@
+/* общие стили */
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 110%;
+}
+
+/* стили хэдера */
+.header-top {
+  border-bottom: 1px solid #dedede;
+}
+
+.header-top-info {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  align-items: center;
+}
+
+.top-menu {
+  display: flex;
+  width: 945px;
+  justify-content: space-between;
+}
+
+.top-menu-left,
+.top-menu-right {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.top-menu-left a,
+.top-menu-right a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+}
+
+.top-menu-left {
+  width: 352px;
+}
+
+.top-menu-right {
+  width: 340px;
+}
+
+.main-menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 73px;
+  align-items: center;
+}
+
+.main-menu-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 500;
+}
+
+/* стили баннера */
+
+.main-banner {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  height: 400px;
+}
+
+.banner-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 22px;
+}
+
+.text-color {
+  color: #3a95ff;
+}
+
+.btn {
+  border: 1px solid #3a95ff;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 25px;
+  margin: 0px 30px 0px 0px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #3a95ff;
+}
+
+.btn-secondary {
+  color: #3a95ff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.banner-info-pic {
+  height: 375px;
+}
+
+.banner-info-buttons {
+}
+
+/* стили предложений */
+
+/* .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-item {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #eff2f5;
+  padding: 15px;
+  margin: 10px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+.title-item {
+  font-size: 26px;
+} */
