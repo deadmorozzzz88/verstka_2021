@@ -160,6 +160,9 @@ h1 {
 
 .credits {
   background-color: #eff2f5;
+  height: 775px;
+  display: flex;
+  align-items: center;
 }
 
 .credits-info {
@@ -216,5 +219,57 @@ h1 {
   border-bottom: 1px solid #3a95ff;
 }
 
-.points-item-botoom {
+.points-item-bottom {
+  text-align: center;
+}
+
+.cards-right-item {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  height: 235px;
+  background: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-bottom: 5px solid #3a95ff;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.strelka {
+  align-self: flex-end;
+}
+
+/* стили как ролучить карту */
+
+.get-card {
+  height: 460px;
+  margin-top: 70px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.get-card-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.get-card-menu-list {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  height: 160px;
+  justify-content: space-between;
 }
